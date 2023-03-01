@@ -5,7 +5,7 @@ const AdmZip = require('adm-zip');
 const archiveFolder = './folder/with/zip/files';
 
 // Set the path to the folder where you want to extract the archives
-const extractFolder = './folder/with/just/files';
+const extractFolder = './folder/with/extract/files';
 
 // Get an array of all the files in the archive folder
 const archiveFiles = fs.readdirSync(archiveFolder);
